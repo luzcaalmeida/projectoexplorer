@@ -10,6 +10,7 @@
 
 body {
   background-image: url(assets/bg-image.png);
+  background-color: #291b1ae7;
   background-size: cover;
 }
 #page {
@@ -18,7 +19,7 @@ body {
   background-color: #f0e8c2;
   border-radius: 24px;
   padding: 24px;
-  margin: 48px auto;
+  margin: 48px auto 0 auto;
 }
 
 img {
@@ -53,9 +54,20 @@ h1,
 h2 {
   color: #291b1a;
   margin-bottom: 4px;
-  line-height: 150%
+  line-height: 150%;
 }
 
 ul {
   padding-left: 24px;
+}
+
+footer {
+  color: #f0e8c2;
+  text-align: center;
+  margin: 24px auto 48px auto;
+}
+
+footer img {
+  width: 16px;
+  vertical-align: middle;
 }
